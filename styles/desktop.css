@@ -1,4 +1,4 @@
-@media screen and (min-width: 75em) {
+@media screen and (min-width: 64em) {
   nav {
     display: flex;
     justify-content:space-between; 
@@ -34,7 +34,7 @@
   }
 
   .main-hello {
-    width: 70%;
+    width: 65%;
     flex-shrink: 1;
   }
 
@@ -55,9 +55,8 @@
     width: 75%;
   }
 
-  .oval-1, .oval-2, .oval-3, .oval-4, .oval-5  {
+  .oval-1, .oval-2, .oval-3, .oval-4, .oval-5, .oval-6, .oval-7, .oval-8, .oval-9, .oval-10 {
     position: absolute;
-    left: -12rem;
     width: 35em;
     height: 7em;
     border: 2px solid var(--secondary-grey-color);
@@ -65,24 +64,52 @@
     z-index: -1;
   }
 
+  .oval-1, .oval-2, .oval-3, .oval-4, .oval-5 {
+    left: -16em;
+  }
+
+  .oval-6, .oval-7, .oval-8, .oval-9, .oval-10 {
+    right: -18em;
+  }
+
   .oval-1 {
-    top: 8rem;
+    top: 8em;
   }
 
   .oval-2 {
-    top:8.8rem;
+    top:8.8em;
   }
 
   .oval-3 {
-    top: 9.6rem;
+    top: 9.6em;
   }
 
   .oval-4 {
-    top: 10.4rem;
+    top: 10.4em;
   }
 
   .oval-5 {
     top: 11.2em;
+  }
+
+  .oval-6 {
+    top: 68em;
+  }
+
+  .oval-7 {
+    top: 68.8em;
+  }
+
+  .oval-8 {
+    top: 69.6em;
+  }
+
+  .oval-9 {
+    top: 70.4em;
+  }
+
+  .oval-10 {
+    top: 71.2em;
   }
 
   .technologies-container {
