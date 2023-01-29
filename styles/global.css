@@ -13,6 +13,7 @@ body {
 }
 
 header {
+  background: #242424;
   color: var(--main-font-color); 
   position: fixed;
   top: 0px;
@@ -38,7 +39,7 @@ h1, h2, h3, p {
 }
 
 h1 {
-  font-size: 4em;
+  font-size: 3.5em;
   width: 80%;
 }
 
@@ -61,10 +62,6 @@ span {
   color: var(--main-green-color);
   margin-top: 1em;
   margin-bottom: 1em; 
-}
-
-.separation-sign:nth-of-type(2n) {
-  margin-top: 2em;
 }
 
 footer {

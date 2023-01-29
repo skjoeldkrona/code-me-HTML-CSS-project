@@ -33,32 +33,56 @@
     justify-content: space-between;
   }
 
+  .main-hello {
+    width: 70%;
+    flex-shrink: 1;
+  }
+
   .main-image {
     width: 30%;
   }
 
   h1 {
-    padding-top: .8em;
+    padding-top: 0.8em;
     line-height: 1.2em;
   }
   
   .main-description {
     color: var(--secondary-font-color);
-    font-size: 1.5em;
-    padding-top: 2em;
+    font-size: 1.2em;
+    padding-top: 1em;
     line-height: 1.5em;
-    width: 80%;
+    width: 75%;
   }
 
-  .oval {
-    position: relative;
-    right: -67%;
-    top: -2.8em;
-    width: 5em;
-    height: 5em;
-    border: 4px dotted var(--main-green-color);
+  .oval-1, .oval-2, .oval-3, .oval-4, .oval-5  {
+    position: absolute;
+    left: -12rem;
+    width: 35em;
+    height: 7em;
+    border: 2px solid var(--secondary-grey-color);
     border-radius:50%;
     z-index: -1;
+  }
+
+  .oval-1 {
+    top: 8rem;
+  }
+
+  .oval-2 {
+    top:8.8rem;
+  }
+
+  .oval-3 {
+    top: 9.6rem;
+  }
+
+  .oval-4 {
+    top: 10.4rem;
+  }
+
+  .oval-5 {
+    top: 11.2em;
   }
 
   .technologies-container {
