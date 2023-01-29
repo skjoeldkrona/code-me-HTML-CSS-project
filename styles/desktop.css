@@ -1,0 +1,81 @@
+@media screen and (min-width: 75em) {
+  nav {
+    display: flex;
+    justify-content:space-between; 
+    width: 80%;
+    padding: 20px 0;
+    margin:0 auto;
+    background-color: var(--main-grey-color);
+    border-bottom: 1px solid var(--main-font-color);
+  }
+  
+  .left-navigation {
+    display: flex;
+    justify-content: flex start;
+    width: 80%;
+  }
+  
+  .left-navigation li {
+    padding-right: 20%;
+  }
+  
+  .right-navigation {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .right-navigation li {
+    padding-left: 60%;
+  }
+
+  .main-container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .main-image {
+    width: 30%;
+  }
+
+  h1 {
+    padding-top: .8em;
+    line-height: 1.2em;
+  }
+  
+  .main-description {
+    color: var(--secondary-font-color);
+    font-size: 1.5em;
+    padding-top: 2em;
+    line-height: 1.5em;
+    width: 80%;
+  }
+
+  .oval {
+    position: relative;
+    right: -67%;
+    top: -2.8em;
+    width: 5em;
+    height: 5em;
+    border: 4px dotted var(--main-green-color);
+    border-radius:50%;
+    z-index: -1;
+  }
+
+  .technologies-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .technologies-article {
+    width: 33.3%;
+    margin-top: 5em;
+  }
+
+  .technologies-article p {
+    margin-top: 1.3em;
+  }
+  
+  
+
+}
+
