@@ -7,6 +7,7 @@
   --secondary-green-color: #5f756b; 
   --main-font: 'Space Grotesk', sans-serif;
   box-sizing: border-box;
+  scroll-behavior: smooth;;
 }
 
 *,

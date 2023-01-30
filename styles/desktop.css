@@ -141,6 +141,10 @@
     padding-top: 1.7em;
   }
 
+  textarea {
+    resize: none;
+  }
+
   .name-input,
   .email-input,
   .message-textarea {
@@ -184,10 +188,9 @@
     border-style: hidden;
     padding: 1em 1em;
     margin: 0.5em 0;
-    border-radius: 7px;
-    /* text-transform: uppercase;
-    text-decoration: underline; */
+    border-radius: 10px;
     font-size: 1em;
+    text-align: left;
   }
 
   .send-message-button:hover{
