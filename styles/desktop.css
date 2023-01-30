@@ -60,34 +60,14 @@
   .oval-2,
   .oval-3,
   .oval-4,
-  .oval-5,
-  .oval-6,
-  .oval-7,
-  .oval-8,
-  .oval-9,
-  .oval-10 {
+  .oval-5 {
     position: absolute;
     width: 35em;
+    left: -16em;
     height: 7em;
     border: 2px solid var(--secondary-grey-color);
     border-radius: 50%;
     z-index: -1;
-  }
-
-  .oval-1,
-  .oval-2,
-  .oval-3,
-  .oval-4,
-  .oval-5 {
-    left: -16em;
-  }
-
-  .oval-6,
-  .oval-7,
-  .oval-8,
-  .oval-9,
-  .oval-10 {
-    right: -18em;
   }
 
   .oval-1 {
@@ -110,26 +90,6 @@
     top: 11.2em;
   }
 
-  .oval-6 {
-    top: 68em;
-  }
-
-  .oval-7 {
-    top: 68.8em;
-  }
-
-  .oval-8 {
-    top: 69.6em;
-  }
-
-  .oval-9 {
-    top: 70.4em;
-  }
-
-  .oval-10 {
-    top: 71.2em;
-  }
-
   .technologies-container {
     display: flex;
     flex-wrap: wrap;
@@ -142,5 +102,106 @@
 
   .technologies-article p {
     margin-top: 1.3em;
+  }
+
+  .contact-me-header {
+    padding: 1em 0 0.5em;
+  }
+
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    border-bottom: 1px solid var(--main-font-color);
+    margin: 0 auto;
+  }
+
+  .footer-left,
+  .footer-right {
+    width: 50%;
+  }
+
+  .contact-me-message {
+    line-height: 1.5rem;
+    width: 80%;
+    font-size: 1em;
+    padding: 4em 0;
+  }
+
+  .contact-form-container {
+    padding: 7em 0 2em 8em;
+  }
+
+  .name,
+  .email,
+  .message {
+    display: block;
+    color: var(--main-font-color);
+    font-size: 1em;
+    padding-top: 1.7em;
+  }
+
+  .name-input,
+  .email-input,
+  .message-textarea {
+    display: block;
+    width: 100%;
+    background-color: var(--secondary-grey-color);
+    color: var(--main-green-color);
+    border-style: hidden;
+    border-color: var(--secondary-font-color);
+    padding: 1.5em 0;
+    font-family: var(--main-font);
+  }
+
+  .name-input,
+  .email-input {
+    border-bottom-style: solid;
+  }
+
+  .name-input:focus,
+  .email-input:focus,
+  .message-textarea:focus {
+    outline: none;
+  }
+
+  .name:hover::after,
+  .email:hover:after {
+    content: ' *mandatory field';
+    font-size: .8em;
+    color: red;
+  }
+
+  hr {
+    height: 0.148em;
+    background-color: var(--secondary-font-color);
+  }
+
+  .send-message-button {
+    outline: none;
+    background-color: var(--main-font-color);
+    color: var(--main-grey-color);
+    border-style: hidden;
+    padding: 1em 1em;
+    margin: 0.5em 0;
+    border-radius: 7px;
+    /* text-transform: uppercase;
+    text-decoration: underline; */
+    font-size: 1em;
+  }
+
+  .send-message-button:hover{
+    background-color: var(--main-green-color);
+    color: var(--main-font-color);
+  }
+
+  .footer-info {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 2em 0;
+    color: var(--secondary-font-color);
+    font-size: 0.7em;
+    z-index: 8;
   }
 }
