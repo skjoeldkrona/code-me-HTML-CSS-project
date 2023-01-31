@@ -1,18 +1,58 @@
 @media screen and (min-width: 64em) {
+  header,
   nav {
-    display: flex;
+    background-color: var(--main-grey-color);
+  }
+
+  header {
+    position: fixed;
+    top: 0px;
+    color: var(--main-font-color);
+  }
+
+  nav,
+  .main-container,
+  .projects-container,
+  .footer-container {
     justify-content: space-between;
-    width: 80%;
+  }
+
+  nav {
     padding: 20px 0;
     margin: 0 auto;
-    background-color: var(--main-grey-color);
     border-bottom: 1px solid var(--main-font-color);
   }
 
-  .left-navigation {
-    display: flex;
-    justify-content: flex start;
+  header,
+  .portfolio-image,
+  .name-input,
+  .email-input,
+  .message-textarea {
+    width: 100%;
+  }
+
+  nav,
+  .left-navigation,
+  main,
+  .footer-container,
+  .contact-me-message {
     width: 80%;
+  }
+
+  nav,
+  .left-navigation,
+  .right-navigation,
+  .main-container,
+  .main-hello,
+  .technologies-container,
+  .projects-container,
+  .project-post,
+  .footer-container {
+    display: flex;
+  }
+
+  .left-navigation {
+    justify-content: flex-start;
   }
 
   .left-navigation li {
@@ -20,7 +60,6 @@
   }
 
   .right-navigation {
-    display: flex;
     justify-content: flex-end;
   }
 
@@ -28,16 +67,13 @@
     padding-left: 60%;
   }
 
-  .main-container {
-    display: flex;
-    justify-content: space-between;
+  main {
+    margin: 10% auto 5%;
   }
 
   .main-hello {
-    display: flex;
-    flex-direction: column;
     justify-content: center;
-    width: 65%;
+    width: 55%;
   }
 
   .main-image {
@@ -53,7 +89,7 @@
     font-size: 1.2em;
     padding-top: 1em;
     line-height: 1.5em;
-    width: 75%;
+    width: 80%;
   }
 
   .oval-1,
@@ -90,18 +126,52 @@
     top: 11.2em;
   }
 
-  .technologies-container {
-    display: flex;
+  .technologies-container,
+  .projects-container {
     flex-wrap: wrap;
+  }
+
+  .technologies-article,
+  .projects-article {
+    margin-top: 5em;
   }
 
   .technologies-article {
     width: 33.3%;
-    margin-top: 5em;
+  }
+
+  .projects-article {
+    width: 45%;
+  }
+
+  .project-post,
+  .main-hello {
+    flex-direction: column;
+  }
+
+  .project-post h3 {
+    padding-bottom: 1.5em;
+  }
+
+  .project-post p {
+    margin: 0 auto;
+    padding: 1.5em 0;
   }
 
   .technologies-article p {
     margin-top: 1.3em;
+  }
+
+  .portfolio-image {
+    border-radius: 10px;
+  }
+
+  .project-post a:hover::after {
+    content: ' and get a quote';
+  }
+
+  footer {
+    background-color: var(--secondary-grey-color);
   }
 
   .contact-me-header {
@@ -109,9 +179,6 @@
   }
 
   .footer-container {
-    display: flex;
-    justify-content: space-between;
-    width: 80%;
     border-bottom: 1px solid var(--main-font-color);
     margin: 0 auto;
   }
@@ -122,8 +189,7 @@
   }
 
   .contact-me-message {
-    line-height: 1.5rem;
-    width: 80%;
+    line-height: 1.5em;
     font-size: 1em;
     padding: 4em 0;
   }
@@ -134,10 +200,17 @@
 
   .name,
   .email,
-  .message {
+  .message,
+  .name-input,
+  .email-input,
+  .message-textarea {
     display: block;
+  }
+
+  .name,
+  .email,
+  .message {
     color: var(--main-font-color);
-    font-size: 1em;
     padding-top: 1.7em;
   }
 
@@ -148,8 +221,6 @@
   .name-input,
   .email-input,
   .message-textarea {
-    display: block;
-    width: 100%;
     background-color: var(--secondary-grey-color);
     color: var(--main-green-color);
     border-style: hidden;
@@ -165,14 +236,15 @@
 
   .name-input:focus,
   .email-input:focus,
-  .message-textarea:focus {
+  .message-textarea:focus,
+  .send-message-button {
     outline: none;
   }
 
   .name:hover::after,
   .email:hover:after {
     content: ' *mandatory field';
-    font-size: .8em;
+    font-size: 0.8em;
     color: red;
   }
 
@@ -182,7 +254,6 @@
   }
 
   .send-message-button {
-    outline: none;
     background-color: var(--main-font-color);
     color: var(--main-grey-color);
     border-style: hidden;
@@ -193,18 +264,16 @@
     text-align: left;
   }
 
-  .send-message-button:hover{
+  .send-message-button:hover {
     background-color: var(--main-green-color);
     color: var(--main-font-color);
   }
 
   .footer-info {
-    width: 80%;
     margin: 0 auto;
     text-align: center;
     padding: 2em 0;
     color: var(--secondary-font-color);
     font-size: 0.7em;
-    z-index: 8;
   }
 }

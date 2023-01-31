@@ -4,10 +4,10 @@
   --main-grey-color: #242424;
   --secondary-grey-color: #404040;
   --main-green-color: #4ee1a0;
-  --secondary-green-color: #5f756b; 
+  --secondary-green-color: #5f756b;
   --main-font: 'Space Grotesk', sans-serif;
   box-sizing: border-box;
-  scroll-behavior: smooth;;
+  scroll-behavior: smooth;
 }
 
 *,
@@ -17,16 +17,8 @@
 }
 
 body {
-  background: #242424;
+  background: var(--main-grey-color);
   font-family: var(--main-font);
-}
-
-header {
-  background: #242424;
-  color: var(--main-font-color);
-  position: fixed;
-  top: 0px;
-  width: 100%;
 }
 
 a:link,
@@ -39,11 +31,6 @@ a:hover {
   border-bottom: 2px solid var(--main-green-color);
 }
 
-main {
-  margin: 10% auto 5%;
-  width: 80%;
-}
-
 h1,
 h2,
 h3,
@@ -53,12 +40,10 @@ p {
 
 h1 {
   font-size: 3.5em;
-  width: 80%;
 }
 
-h2,
-.contact-me-header {
-  font-size: 3.5em;
+h2 {
+  font-size: 3em;
 }
 
 h3 {
@@ -77,8 +62,3 @@ span {
   margin-top: 1em;
   margin-bottom: 1em;
 }
-
-footer {
-  background-color: var(--secondary-grey-color);
-}
-
