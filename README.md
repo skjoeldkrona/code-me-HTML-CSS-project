@@ -1,6 +1,6 @@
 # Junior frontend developer website made with HTML & CSS
 
-This project was created as final project for an HTML & CSS module during a junior frontend dev course. 
+This project was created as a final project for an HTML & CSS module during a junior frontend dev course. 
 
 Technologies used: 
 - HTML
