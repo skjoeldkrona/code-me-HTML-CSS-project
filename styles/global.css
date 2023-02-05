@@ -38,17 +38,29 @@ p {
   color: var(--main-font-color);
 }
 
-h1 {
-  font-size: 3.5em;
-}
+header,
+  nav {
+    background-color: var(--main-grey-color);
+  }
 
-h2 {
-  font-size: 3em;
-}
+  /* header {
+    position: fixed;
+    top: 0px;
+    color: var(--main-font-color);
+  }
 
-h3 {
-  font-size: 2em;
-}
+  nav {
+    padding: 20px 0;
+    margin: 0 auto;
+    border-bottom: 1px solid var(--main-font-color);
+  }
+
+  nav,
+  .main-container,
+  .projects-container,
+  .footer-container {
+    justify-content: space-between;
+  } */
 
 span {
   text-decoration: underline;

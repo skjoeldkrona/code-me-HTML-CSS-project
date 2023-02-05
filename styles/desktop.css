@@ -1,279 +1,297 @@
-@media screen and (min-width: 64em) {
-  header,
-  nav {
-    background-color: var(--main-grey-color);
-  }
+/* For large screens and TVs */
 
-  header {
-    position: fixed;
-    top: 0px;
-    color: var(--main-font-color);
-  }
+h1 {
+  font-size: 3.5em;
+}
 
-  nav,
-  .main-container,
-  .projects-container,
-  .footer-container {
-    justify-content: space-between;
-  }
+h2 {
+  font-size: 3em;
+}
 
-  nav {
-    padding: 20px 0;
-    margin: 0 auto;
-    border-bottom: 1px solid var(--main-font-color);
-  }
+h3 {
+  font-size: 2em;
+}
 
-  header,
-  .portfolio-image,
-  .name-input,
-  .email-input,
-  .message-textarea {
-    width: 100%;
-  }
+header,
+nav {
+  background-color: var(--main-grey-color);
+}
 
-  nav,
-  .left-navigation,
-  main,
-  .footer-container,
-  .contact-me-message {
-    width: 80%;
-  }
+header {
+  position: fixed;
+  top: 0px;
+  color: var(--main-font-color);
+}
 
-  nav,
-  .left-navigation,
-  .right-navigation,
-  .main-container,
-  .main-hello,
-  .technologies-container,
-  .projects-container,
-  .project-post,
-  .footer-container {
-    display: flex;
-  }
+nav,
+.main-container,
+.projects-container,
+.footer-container {
+  justify-content: space-between;
+}
 
-  .left-navigation {
-    justify-content: flex-start;
-  }
+nav {
+  padding: 20px 0;
+  margin: 0 auto;
+  border-bottom: 1px solid var(--main-font-color);
+}
 
-  .left-navigation li {
-    padding-right: 20%;
-  }
+header,
+.portfolio-image,
+.name-input,
+.email-input,
+.message-textarea {
+  width: 100%;
+}
 
-  .right-navigation {
-    justify-content: flex-end;
-  }
+nav,
+.left-navigation,
+main,
+.footer-container,
+.contact-me-message {
+  width: 80%;
+}
 
-  .right-navigation li {
-    padding-left: 60%;
-  }
+nav,
+.left-navigation,
+.right-navigation,
+.main-container,
+.main-hello,
+.technologies-container,
+.projects-container,
+.project-post,
+.footer-container {
+  display: flex;
+}
 
-  main {
-    margin: 10% auto 5%;
-  }
+.left-navigation {
+  justify-content: flex-start;
+}
 
-  .main-hello {
-    justify-content: center;
-    width: 55%;
-  }
+.left-navigation li {
+  padding-right: 20%;
+}
 
-  .main-image {
-    width: 30%;
-  }
+.right-navigation {
+  justify-content: flex-end;
+}
 
-  h1 {
-    line-height: 1.2em;
-  }
+.right-navigation li {
+  padding-left: 60%;
+}
 
-  .main-description {
-    color: var(--secondary-font-color);
-    font-size: 1.2em;
-    padding-top: 1em;
-    line-height: 1.5em;
-    width: 80%;
-  }
+main {
+  margin: 10% auto 5%;
+}
 
-  .oval-1,
-  .oval-2,
-  .oval-3,
-  .oval-4,
-  .oval-5 {
-    position: absolute;
-    width: 35em;
-    left: -16em;
-    height: 7em;
-    border: 2px solid var(--secondary-grey-color);
-    border-radius: 50%;
-    z-index: -1;
-  }
+.main-hello {
+  justify-content: center;
+  width: 55%;
+}
 
-  .oval-1 {
-    top: 8em;
-  }
+.main-image {
+  align-items: center;
+  width: 35%;
+  min-height: 25em;
+  background-image: url(/assets/images/skjoeldkrona.jpg);
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 
-  .oval-2 {
-    top: 8.8em;
-  }
+h1 {
+  line-height: 1.2em;
+}
 
-  .oval-3 {
-    top: 9.6em;
-  }
+.main-description {
+  color: var(--secondary-font-color);
+  font-size: 1.2em;
+  padding-top: 1em;
+  line-height: 1.5em;
+  width: 80%;
+}
 
-  .oval-4 {
-    top: 10.4em;
-  }
+.oval-1,
+.oval-2,
+.oval-3,
+.oval-4,
+.oval-5 {
+  position: absolute;
+  width: 35em;
+  left: -16em;
+  height: 7em;
+  border: 2px solid var(--secondary-grey-color);
+  border-radius: 50%;
+  z-index: -1;
+}
 
-  .oval-5 {
-    top: 11.2em;
-  }
+.oval-1 {
+  top: 8em;
+}
 
-  .technologies-container,
-  .projects-container {
-    flex-wrap: wrap;
-  }
+.oval-2 {
+  top: 8.8em;
+}
 
-  .technologies-article,
-  .projects-article {
-    margin-top: 5em;
-  }
+.oval-3 {
+  top: 9.6em;
+}
 
-  .technologies-article {
-    width: 33.3%;
-  }
+.oval-4 {
+  top: 10.4em;
+}
 
-  .projects-article {
-    width: 45%;
-  }
+.oval-5 {
+  top: 11.2em;
+}
 
-  .project-post,
-  .main-hello {
-    flex-direction: column;
-  }
+.technologies-container,
+.projects-container {
+  flex-wrap: wrap;
+}
 
-  .project-post h3 {
-    padding-bottom: 1.5em;
-  }
+.technologies-article,
+.projects-article {
+  margin-top: 5em;
+}
 
-  .project-post p {
-    margin: 0 auto;
-    padding: 1.5em 0;
-  }
+.technologies-article {
+  width: 33.3%;
+}
 
-  .technologies-article p {
-    margin-top: 1.3em;
-  }
+.projects-article {
+  width: 45%;
+}
 
-  .portfolio-image {
-    border-radius: 10px;
-  }
+.project-post,
+.main-hello {
+  flex-direction: column;
+}
 
-  .project-post a:hover::after {
-    content: ' and get a quote';
-  }
+.project-post h3 {
+  padding-bottom: 1.5em;
+}
 
-  footer {
-    background-color: var(--secondary-grey-color);
-  }
+.project-post p {
+  margin: 0 auto;
+  padding: 1.5em 0;
+}
 
-  .contact-me-header {
-    padding: 1em 0 0.5em;
-  }
+.technologies-article p {
+  margin-top: 1.3em;
+}
 
-  .footer-container {
-    border-bottom: 1px solid var(--main-font-color);
-    margin: 0 auto;
-  }
+.portfolio-image {
+  border-radius: 10px;
+}
 
-  .footer-left,
-  .footer-right {
-    width: 50%;
-  }
+.project-post a:hover::after {
+  content: ' and get a quote';
+}
 
-  .contact-me-message {
-    line-height: 1.5em;
-    font-size: 1em;
-    padding: 4em 0;
-  }
+footer {
+  background-color: var(--secondary-grey-color);
+}
 
-  .contact-form-container {
-    padding: 7em 0 2em 8em;
-  }
+.contact-me-header {
+  padding: 1em 0 0.5em;
+}
 
-  .name,
-  .email,
-  .message,
-  .name-input,
-  .email-input,
-  .message-textarea {
-    display: block;
-  }
+.footer-container {
+  border-bottom: 1px solid var(--main-font-color);
+  margin: 0 auto;
+}
 
-  .name,
-  .email,
-  .message {
-    color: var(--main-font-color);
-    padding-top: 1.7em;
-  }
+.footer-left,
+.footer-right {
+  width: 50%;
+}
 
-  textarea {
-    resize: none;
-  }
+.contact-me-message {
+  line-height: 1.5em;
+  font-size: 1em;
+  padding: 4em 0;
+}
 
-  .name-input,
-  .email-input,
-  .message-textarea {
-    background-color: var(--secondary-grey-color);
-    color: var(--main-green-color);
-    border-style: hidden;
-    border-color: var(--secondary-font-color);
-    padding: 1.5em 0;
-    font-family: var(--main-font);
-  }
+.contact-form-container {
+  padding: 7em 0 2em 8em;
+}
 
-  .name-input,
-  .email-input {
-    border-bottom-style: solid;
-  }
+.name,
+.email,
+.message,
+.name-input,
+.email-input,
+.message-textarea {
+  display: block;
+}
 
-  .name-input:focus,
-  .email-input:focus,
-  .message-textarea:focus,
-  .send-message-button {
-    outline: none;
-  }
+.name,
+.email,
+.message {
+  color: var(--main-font-color);
+  padding-top: 1.7em;
+}
 
-  .name:hover::after,
-  .email:hover:after {
-    content: ' *mandatory field';
-    font-size: 0.8em;
-    color: red;
-  }
+textarea {
+  resize: none;
+}
 
-  hr {
-    height: 0.148em;
-    background-color: var(--secondary-font-color);
-  }
+.name-input,
+.email-input,
+.message-textarea {
+  background-color: var(--secondary-grey-color);
+  color: var(--main-green-color);
+  border-style: hidden;
+  border-color: var(--secondary-font-color);
+  padding: 1.5em 0;
+  font-family: var(--main-font);
+}
 
-  .send-message-button {
-    background-color: var(--main-font-color);
-    color: var(--main-grey-color);
-    border-style: hidden;
-    padding: 1em 1em;
-    margin: 0.5em 0;
-    border-radius: 10px;
-    font-size: 1em;
-    text-align: left;
-  }
+.name-input,
+.email-input {
+  border-bottom-style: solid;
+}
 
-  .send-message-button:hover {
-    background-color: var(--main-green-color);
-    color: var(--main-font-color);
-  }
+.name-input:focus,
+.email-input:focus,
+.message-textarea:focus,
+.send-message-button {
+  outline: none;
+}
 
-  .footer-info {
-    margin: 0 auto;
-    text-align: center;
-    padding: 2em 0;
-    color: var(--secondary-font-color);
-    font-size: 0.7em;
-  }
+.name:hover::after,
+.email:hover:after {
+  content: ' *mandatory field';
+  font-size: 0.8em;
+  color: red;
+}
+
+hr {
+  height: 0.148em;
+  background-color: var(--secondary-font-color);
+}
+
+.send-message-button {
+  background-color: var(--main-font-color);
+  color: var(--main-grey-color);
+  border-style: hidden;
+  padding: 1em 1em;
+  margin: 0.5em 0;
+  border-radius: 10px;
+  font-size: 1em;
+  text-align: left;
+}
+
+.send-message-button:hover {
+  background-color: var(--main-green-color);
+  color: var(--main-font-color);
+}
+
+.footer-info {
+  margin: 0 auto;
+  text-align: center;
+  padding: 2em 0;
+  color: var(--secondary-font-color);
+  font-size: 0.7em;
 }
