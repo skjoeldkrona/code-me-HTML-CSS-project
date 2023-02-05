@@ -74,14 +74,6 @@
     margin-top: 0.8em;
   }
 
-  .portfolio-image {
-    border-radius: 10px;
-  }
-
-  .project-post a:hover::after {
-    content: ' and get a quote';
-  }
-
   .contact-form-container {
     padding: 2em 0 1em 4em;
   }

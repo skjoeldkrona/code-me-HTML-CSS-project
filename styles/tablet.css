@@ -2,7 +2,7 @@
 
 @media screen and (min-width: 481px) and (max-width: 767px) {
   h1 {
-    font-size: 1.5em;
+    font-size: 1.7em;
   }
 
   h2 {
@@ -10,7 +10,7 @@
   }
 
   h3 {
-    font-size: 1.3em;
+    font-size: 1.2em;
   }
 
   .separation-sign {
@@ -25,6 +25,10 @@
     width: 95%;
   }
 
+  nav li {
+    font-size: 75%;
+  }
+
   .left-navigation li {
     padding-top: 2%;
   }
@@ -33,37 +37,88 @@
     border-bottom: 2px solid var(--main-green-color);
   }
 
-  nav li {
-    font-size: 75%;
+  main {
+    margin: 15% auto 5%;
   }
 
   .main-image {
     min-height: 17em;
     width: 45%;
-  } 
+  }
 
   .main-description {
-    font-size: .8em;
+    font-size: 0.8em;
   }
 
   .main-hello {
-    justify-content: center;
     width: 55%;
   }
 
   .technologies-article,
-.projects-article {
-  margin-top: 2.5em;
-}
+  .projects-article {
+    margin-top: 2.5em;
+  }
 
   .technologies-article {
     width: 50%;
   }
 
-  .technologies-article p {
-    font-size: .8em
+  .technologies-article p,
+  .project-post p {
+    font-size: 0.8em;
   }
 
+  .project-post h3 {
+    padding-bottom: 1.5em;
+    font-size: 1em;
+  }
 
+  .project-post a {
+    border-bottom: 2px solid var(--main-green-color);
+  }
 
+  .project-post a:hover::after,
+  .footer-container .separation-sign {
+    display: none;
+  }
+
+  .footer-container {
+    flex-direction: column;
+  }
+
+  .footer-left,
+  .footer-right {
+    width: 100%;
+  }
+
+  .contact-me-message {
+    font-size: 0.8em;
+    padding: 1em 0;
+  }
+
+  .contact-form-container {
+    padding: 0px;
+  }
+
+  .name,
+  .email,
+  .message {
+    color: var(--main-font-color);
+    padding-top: 1.3em;
+    font-size: 0.8em;
+  }
+
+  .name-input,
+  .email-input,
+  .message-textarea {
+    font-size: 0.8em;
+  }
+
+  .send-message-button {
+    background-color: var(--main-green-color);
+    color: var(--main-font-color);
+    width: 30%;
+    margin: 1em 35% 2em;
+    font-size: 0.8em;
+  }
 }
