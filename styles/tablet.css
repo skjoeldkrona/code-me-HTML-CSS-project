@@ -1,0 +1,69 @@
+/* For tablets and iPads */
+
+@media screen and (min-width: 481px) and (max-width: 767px) {
+  h1 {
+    font-size: 1.5em;
+  }
+
+  h2 {
+    font-size: 1.5em;
+  }
+
+  h3 {
+    font-size: 1.3em;
+  }
+
+  .separation-sign {
+    font-size: 2em;
+  }
+
+  nav,
+  .left-navigation,
+  main,
+  .footer-container,
+  .contact-me-message {
+    width: 95%;
+  }
+
+  .left-navigation li {
+    padding-top: 2%;
+  }
+
+  .left-navigation li a {
+    border-bottom: 2px solid var(--main-green-color);
+  }
+
+  nav li {
+    font-size: 75%;
+  }
+
+  .main-image {
+    min-height: 17em;
+    width: 45%;
+  } 
+
+  .main-description {
+    font-size: .8em;
+  }
+
+  .main-hello {
+    justify-content: center;
+    width: 55%;
+  }
+
+  .technologies-article,
+.projects-article {
+  margin-top: 2.5em;
+}
+
+  .technologies-article {
+    width: 50%;
+  }
+
+  .technologies-article p {
+    font-size: .8em
+  }
+
+
+
+}

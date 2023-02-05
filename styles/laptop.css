@@ -1,4 +1,4 @@
-/* For small screens */
+/* For laptops and small screens */
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   h1 {
@@ -22,11 +22,15 @@
   main,
   .footer-container,
   .contact-me-message {
-    width: 87%;
+    width: 87.5%;
   }
 
   nav li {
     font-size: 90%;
+  }
+
+  .left-navigation li {
+    padding-top: 1.5%;
   }
 
   .main-image {
