@@ -8,3 +8,12 @@ Technologies used:
 
 This project will be further developed with JavaScript and React.
 
+## Challenges faced during this project
+
+- keeping a consistent user-friendly UI/UX design across all views;
+- designing 4 different views (desktop, laptop, tablet & mobile);
+- working with relative units;
+- working with background images in divs as opposed to using the img element;
+- designing and executing functional navigation for the mobile view.
+
+
