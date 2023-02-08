@@ -1,0 +1,159 @@
+/* For smartphones */
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  h1 {
+    font-size: 1.5em;
+  }
+
+  h2 {
+    font-size: 1.2em;
+  }
+
+  h3 {
+    font-size: 1em;
+  }
+
+  .separation-sign {
+    font-size: 1.5em;
+    text-align: center;
+  }
+
+  nav,
+  main,
+  .footer-container,
+  .contact-me-message, 
+  .main-hello,
+  .main-image  {
+    width: 90%;
+  }
+
+  .oval-1,
+  .oval-2,
+  .oval-3,
+  .oval-4,
+  .oval-5 {
+    display: none;
+  }
+
+  .right-navigation li {
+    padding-left: .3em;
+  }
+
+  .left-navigation li:nth-of-type(1) {
+    display:none;
+  }
+
+  .left-navigation li {
+    background-color: var(--main-green-color);
+    padding: 2% 5%;
+    margin-right: 5%;
+    border: 2px solid var(--main-green-color);
+    border-radius: 5px;
+  }
+
+  .main-container {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .main-hello {
+    padding-top: 2em;
+  }
+
+  .main-image {
+    margin-top: 5vh;
+  }
+
+  .main-hello,
+  .main-description,
+  h2,
+  h3,
+  p {
+    text-align: center;
+    width: 100%;
+  }
+
+  .main-description {
+    font-size: 0.8em;
+  }
+
+  .project-post a:hover::after,
+  .footer-container .separation-sign {
+    display: none;
+  }
+
+  .technologies-article {
+    width: 100%;
+    margin-top: 2.2em;
+  }
+
+  .technologies-article p,
+  .project-post p {
+    font-size: 0.8em;
+  }
+
+  .projects-article {
+    width: 100%;
+    margin-top: 1.5em;
+  }
+
+  .projects-header {
+    margin-top: 10vh;
+    padding-bottom: 8%;
+  }
+
+  .project-post h3 {
+    padding-bottom: 1em;
+    font-size: 1em;
+  }
+
+  .project-post a {
+    border-bottom: 2px solid var(--main-green-color);
+  }
+
+  .project-post a:hover::after,
+  .footer-container .separation-sign {
+    display: none;
+  }
+
+  .footer-container {
+    flex-direction: column;
+  }
+
+  .footer-left,
+  .footer-right {
+    width: 100%;
+  }
+
+  .contact-me-message {
+    font-size: 0.8em;
+    padding: 1em 0;
+    width: 100%;
+  }
+
+  .contact-form-container {
+    padding: 0px;
+  }
+
+  .name,
+  .email,
+  .message {
+    color: var(--main-font-color);
+    padding-top: 1.3em;
+    font-size: 0.8em;
+  }
+
+  .name-input,
+  .email-input,
+  .message-textarea {
+    font-size: 0.8em;
+  }
+
+  .send-message-button {
+    background-color: var(--main-green-color);
+    color: var(--main-font-color);
+    width: 100%;
+    font-size: 1em;
+  }
+}
