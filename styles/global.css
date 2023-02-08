@@ -39,9 +39,9 @@ p {
 }
 
 header,
-  nav {
-    background-color: var(--main-grey-color);
-  }
+nav {
+  background-color: var(--main-grey-color);
+}
 
 span {
   text-decoration: underline;

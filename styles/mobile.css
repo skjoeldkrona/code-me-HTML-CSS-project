@@ -21,9 +21,9 @@
   nav,
   main,
   .footer-container,
-  .contact-me-message, 
+  .contact-me-message,
   .main-hello,
-  .main-image  {
+  .main-image {
     width: 90%;
   }
 
@@ -36,11 +36,11 @@
   }
 
   .right-navigation li {
-    padding-left: .3em;
+    padding-left: 0.3em;
   }
 
   .left-navigation li:nth-of-type(1) {
-    display:none;
+    display: none;
   }
 
   .left-navigation li {
